@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odometr</title>
+  </head>
+  <body>
+    <style>
+      html,
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("bg.webp");
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .js-odoo {
+        background-color: #ffdee9;
+        background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+        text-align: center;
+        margin-top: 20%;
+        margin-bottom: 20px;
+        font-size: 70px;
+        padding: 20px 0 10px 20px;
+        border-radius: 25px;
+      }
+
+      .btn {
+        width: 300px;
+        padding: 15px 12px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        font-size: 3rem;
+        color: #492fce;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        border: 0;
+        cursor: pointer;
+      }
+    </style>
+
+    <div class="js-odoo"></div>
+    <button class="btn">GENERATE</button>
+    <script src="https://cdn.rawgit.com/coderitual/odoo/feature/codevember16/lib/odoo.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
